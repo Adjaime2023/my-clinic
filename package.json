@@ -9,61 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "@prisma/client": "^6.12.0",
-    "bcrypt": "^6.0.0",
     "lucide-react": "^0.525.0",
     "next": "15.4.2",
     "react": "19.1.0",
     "react-dom": "19.1.0"
-=======
-    "next": "15.4.2",
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "react-icons": "^5.5.0"
->>>>>>> d641e324471bdd7ee4d9dd3ef232e3c7e3b626d8
-=======
-    "next": "15.4.2",
-    "react": "19.1.0",
-    "react-dom": "19.1.0"
->>>>>>> 49d2d72542967f4dee01eef34709ae641b18f8c3
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "@types/node": "^20.19.9",
-=======
     "@types/node": "^20",
->>>>>>> 49d2d72542967f4dee01eef34709ae641b18f8c3
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.4.2",
     "prisma": "^6.12.0",
     "tailwindcss": "^4",
-<<<<<<< HEAD
-    "ts-node": "^10.9.2",
-    "tsx": "^4.20.3",
-    "typescript": "^5.8.3"
+    "typescript": "^5"
   },
   "prisma": {
-    "seed": "tsx prisma/seed.ts"
-=======
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "autoprefixer": "^10.4.21",
-    "eslint": "^9",
-    "eslint-config-next": "15.4.2",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.11",
-    "typescript": "^5"
->>>>>>> d641e324471bdd7ee4d9dd3ef232e3c7e3b626d8
-=======
-    "typescript": "^5"
->>>>>>> 49d2d72542967f4dee01eef34709ae641b18f8c3
+    "seed": "ts-node --esm prisma/seed.ts"
   }
+  
 }
