@@ -1,7 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import './globals.css'
 import { Inter } from 'next/font/google'
 import { Header } from '@/components/header'
+=======
+import './globals.css'
+import { Inter } from 'next/font/google'
+>>>>>>> 49d2d72542967f4dee01eef34709ae641b18f8c3
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' })
 
@@ -13,6 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-br" suppressHydrationWarning>
+<<<<<<< HEAD
       <body className={`${inter.variable} antialiased`} suppressHydrationWarning>
 
         <Header />
@@ -58,4 +64,11 @@ export default function RootLayout({
     </html>
   );
 >>>>>>> d641e324471bdd7ee4d9dd3ef232e3c7e3b626d8
+=======
+      <body className={`${inter.variable} antialiased`}>
+        {children}
+      </body>
+    </html>
+  )
+>>>>>>> 49d2d72542967f4dee01eef34709ae641b18f8c3
 }
